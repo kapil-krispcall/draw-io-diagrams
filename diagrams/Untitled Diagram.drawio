@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="or0nQiuYN2_78iV378Mr-6" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="510" width="780" x="40" y="160" as="geometry" />
+          <mxGeometry height="510" width="780" x="35" y="140" as="geometry" />
         </mxCell>
         <mxCell id="or0nQiuYN2_78iV378Mr-1" parent="or0nQiuYN2_78iV378Mr-6" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Krispcall" vertex="1">
           <mxGeometry height="510" width="240" as="geometry" />
@@ -15,6 +15,121 @@
         </mxCell>
         <mxCell id="or0nQiuYN2_78iV378Mr-5" parent="or0nQiuYN2_78iV378Mr-6" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Krispcall Browser Extension" vertex="1">
           <mxGeometry height="510" width="240" x="540" as="geometry" />
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-1" edge="1" parent="or0nQiuYN2_78iV378Mr-6" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;startArrow=none;startFill=0;endSize=6;startSize=10;rounded=0;elbow=vertical;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="120" y="80" as="sourcePoint" />
+            <mxPoint x="390" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-9" connectable="0" parent="MrDMOh2z5ExBkQpU-rnM-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Initiate OAuth2 Authentication" vertex="1">
+          <mxGeometry relative="1" x="-0.0312" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-18" edge="1" parent="or0nQiuYN2_78iV378Mr-6" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=none;endFill=0;startArrow=blockThin;startFill=1;endSize=6;startSize=10;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="120" y="110" as="sourcePoint" />
+            <mxPoint x="390" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-19" connectable="0" parent="MrDMOh2z5ExBkQpU-rnM-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Provides Access Token" vertex="1">
+          <mxGeometry relative="1" x="-0.0312" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-26" edge="1" parent="or0nQiuYN2_78iV378Mr-6" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;startArrow=none;startFill=0;endSize=6;startSize=10;rounded=0;elbow=vertical;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="120" y="140" as="sourcePoint" />
+            <mxPoint x="390" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-27" connectable="0" parent="MrDMOh2z5ExBkQpU-rnM-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Register Webhooks for Contact Events" vertex="1">
+          <mxGeometry relative="1" x="-0.0312" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-35" edge="1" parent="or0nQiuYN2_78iV378Mr-6" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;startArrow=none;startFill=0;endSize=6;startSize=10;rounded=0;elbow=vertical;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="390" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-36" connectable="0" parent="MrDMOh2z5ExBkQpU-rnM-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0" value="Contact (Create, Update, Delete)" vertex="1">
+          <mxGeometry relative="1" x="-0.0312" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-37" edge="1" parent="or0nQiuYN2_78iV378Mr-6" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;startArrow=none;startFill=0;endSize=6;startSize=10;rounded=0;elbow=vertical;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="120" y="270" as="sourcePoint" />
+            <mxPoint x="390" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-38" connectable="0" parent="MrDMOh2z5ExBkQpU-rnM-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0" value="Log SMS" vertex="1">
+          <mxGeometry relative="1" x="-0.0312" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-40" edge="1" parent="or0nQiuYN2_78iV378Mr-6" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;startArrow=none;startFill=0;endSize=6;startSize=10;rounded=0;elbow=vertical;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="120" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-41" connectable="0" parent="MrDMOh2z5ExBkQpU-rnM-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0" value="Log Call" vertex="1">
+          <mxGeometry relative="1" x="-0.0312" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-42" edge="1" parent="or0nQiuYN2_78iV378Mr-6" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=none;endFill=0;startArrow=blockThin;startFill=1;endSize=6;startSize=10;rounded=0;elbow=vertical;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="120" y="359" as="sourcePoint" />
+            <mxPoint x="390" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-43" connectable="0" parent="MrDMOh2z5ExBkQpU-rnM-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0" value="Notify Contact Events (Create, Update, Delete)" vertex="1">
+          <mxGeometry relative="1" x="-0.0312" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-56" edge="1" parent="or0nQiuYN2_78iV378Mr-6" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="380" />
+              <mxPoint x="750" y="420" />
+            </Array>
+            <mxPoint x="659.6666666666665" y="380" as="sourcePoint" />
+            <mxPoint x="659.6666666666665" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-57" connectable="0" parent="MrDMOh2z5ExBkQpU-rnM-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Perform call and sms" vertex="1">
+          <mxGeometry relative="1" x="-0.639" y="1" as="geometry">
+            <mxPoint x="40" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-59" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="or0nQiuYN2_78iV378Mr-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="710" y="590" as="sourcePoint" />
+            <mxPoint x="540" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-60" connectable="0" parent="MrDMOh2z5ExBkQpU-rnM-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sync Logs" vertex="1">
+          <mxGeometry relative="1" x="0.1689" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-61" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Krispcall" vertex="1">
+          <mxGeometry height="120" width="140" x="30" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-62" parent="MrDMOh2z5ExBkQpU-rnM-61" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 1" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-63" parent="MrDMOh2z5ExBkQpU-rnM-61" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 2" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrDMOh2z5ExBkQpU-rnM-64" parent="MrDMOh2z5ExBkQpU-rnM-61" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 3" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
