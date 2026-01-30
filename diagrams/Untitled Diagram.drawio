@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2">
+  <diagram name="Page-1" id="Ftiq3luvorSvWgET8Zvr">
+    <mxGraphModel dx="1426" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="or0nQiuYN2_78iV378Mr-6" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="510" width="780" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="or0nQiuYN2_78iV378Mr-1" parent="or0nQiuYN2_78iV378Mr-6" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Krispcall" vertex="1">
+          <mxGeometry height="510" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="or0nQiuYN2_78iV378Mr-4" parent="or0nQiuYN2_78iV378Mr-6" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="JobAdder" vertex="1">
+          <mxGeometry height="510" width="240" x="270" as="geometry" />
+        </mxCell>
+        <mxCell id="or0nQiuYN2_78iV378Mr-5" parent="or0nQiuYN2_78iV378Mr-6" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Krispcall Browser Extension" vertex="1">
+          <mxGeometry height="510" width="240" x="540" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
